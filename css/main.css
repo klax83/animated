@@ -1,0 +1,43 @@
+.menubar {
+	height: 60px;
+	position: fixed;
+	width: 100vw;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+.menubutt {
+	background-color: white;
+	position: fixed;
+	border-radius: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	z-index: 4;
+}
+.menu {
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	transition: 0.9s ease;
+}
+.menucollapsed {
+	width: 0;
+}
+.hidden {
+	display: none;
+}
+li {
+	height: 20%;
+	list-style-type: none;
+	text-decoration: underline;
+	font-size: 2.5rem;
+	transition: 0.7s ease;
+}
+li:hover {
+	color: white;
+}
